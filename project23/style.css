@@ -1,0 +1,597 @@
+.toppart{
+    display: flex;
+    background-color: #222328;
+    justify-content: space-between;
+    height: 55px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.ttextprt{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.ttextprt p{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: px 15px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    /* color: rgb(117, 117, 117); */
+}
+
+.navigation-bar{
+    height: 70px;
+    background-color: #222328;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 25px;
+}
+.menu ul li a{
+    color: white;
+    text-transform: capitalize;
+    /* padding-right: 15px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu ul li .active{
+    color: #f75757;
+}
+.menu ul li a:hover{
+    color: #f75757;
+}
+.menu ul li .getaquite{
+    padding: 10px 16px;
+    margin-left: 20px;
+    border: 1px solid #f75757;
+    border-radius: 40px;
+    font-family: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.hero-area{
+    background-image: url('img/home-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.hero-areacontent{
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-top: 100px;
+    padding-left: 60px;
+    height: 600px;
+}
+.hero-areacontent p{
+    padding-top: 19px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero-areacontent h1{
+    width: 70%;
+    padding-top: 19px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 69px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 90px;
+}
+.button1 a{
+    /* padding-top: 50px; */
+    /* border: 1px solid white; */
+    text-transform: uppercase;
+    background-color: #f75757;
+    padding: 16px 16px;
+    color: white;
+    border-radius: 35px;
+}
+.button1 a:hover{
+    background-color: #ff0000;
+}
+
+.section-one{
+    background-color: white;
+    padding: 10px;
+}
+.section1heading{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.section1heading p{
+    padding-top: 40px;
+    font-size: 20px;
+    color: #f75757;
+    font-weight: 400;
+    
+}
+.section1heading h1{
+    width: 50%;
+    padding-top: 10px;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section1conten{
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section1contbox{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 32%;
+    /* border: 2px solid red; */
+}
+.section1contbox h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(9, 0, 43);
+    /* width: 90%; */
+    font-style: italic;
+}
+.section1contbox p{
+    padding-top: 10px;
+    width: 90%;
+    font-style: italic;
+}
+
+.section-two{
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section2left{
+    width: 90%;
+}
+.section2left img{
+    width: 100%;
+}
+.section2right{
+    padding: 20px 29px;
+}
+.section2right .p1{
+    color: #f75757;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.section2right h1{
+    color: #05001b;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    width: 90%;
+    letter-spacing: 1px;
+
+}
+.section2right h4{
+    color: #191720;
+    padding-top: 19px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 90%;
+    letter-spacing: 1px;
+    padding-left: 40px;
+}
+.section2right .p2{
+    padding-top: 10px;
+    color: #191720;
+    width: 90%;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    font-style: italic;
+}
+.section2right a{
+    margin-left: 40px;
+    color: #ffffff;
+    background-color: #f75757;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section2right a:hover{
+    color: #ffffff;
+    background-color: #fc0000;
+}
+
+
+.container-three{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    margin: 60px auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.mb-0{
+    font-size: 20px;
+}
+.box1 span{
+    font-weight: 900px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.text-muted{
+    color: gray;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+.line1{
+    margin: 40px 0px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(177, 177, 177);
+}
+
+.mainheading{
+    width: 40%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.mainheading p{
+    color: #f75757;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mainheading h1{
+    color: #1b1c25;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.section-four{
+    background-color: white;
+    width: 90%;
+    margin: 40px auto;
+}
+.section4content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.section4box{
+    width: 32%;
+    /* border: 3px solid red; */
+    display: flex; 
+    
+}
+.sec4txtprt h4{
+padding-bottom: 26px;
+padding-left: 8px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #222328;
+}
+.sec4txtprt p{
+padding-bottom: 16px;
+padding-left: 8px;
+font-style: italic;
+/* line-height: 1.9; */
+}
+
+.backwhite{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section5content{
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+    width: 40%;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.s5cn{
+    padding: 50px;
+}
+.s5cn .p4{
+    padding-top: 40px;
+    color: #f75757;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.s5cn h1{
+    padding-top: 10px;
+    color: #2c353d;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 37px;
+}
+.s5cn .pra{
+    padding-top: 10px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+
+.section-seven{
+    background-color: white;
+}
+.section7heading{
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.section7heading p{
+    color: #f75757;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.section7heading h1{
+    padding-top: 10px;
+    color: #2c353d;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 37px;
+}
+.section7content{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.s7cntbx{
+    padding: 20px 0px;
+    width: 46%;
+}
+.s7cntbx img{
+    border-radius: 60px;
+    width: 90px;
+    height: 90px;
+}
+.s7cntbx p{
+    padding-bottom: 24px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.s7cntbx h5{
+    padding-bottom: 24px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-eight{
+    margin-top: -36px;
+    background-image: url('img/home-5.jpg');
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section8content{
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 850px;
+}
+
+.section8heading{
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.section8heading p{
+color: #f75757;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.section8heading h1{
+    padding-top: 10px;
+    color: #60b5ff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 37px;
+}
+
+.s8content{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.s8bodyprt{
+    padding-top: 18px;
+    padding-left: 17px;
+    padding-right: 8px;
+}
+.s8bodyprt p{
+    padding-top: 18px;
+    color: rgb(167, 167, 167);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.s8bodyprt h3{
+    padding-top: 18px;
+    color: rgb(255, 249, 249);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 80%;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+.s8bodyprt a{
+    color: rgb(255, 249, 249);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid #f75757;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+.s8bodyprt a:hover{
+    border: none;
+    background-color: #fc0000;
+}
+.footercontent{
+    background-color: white;
+    height: 570px;
+    position: relative;
+
+}
+.fupporbox{
+    position: relative;
+    top: -80px;
+    width: 80%;
+    margin: 0px auto;
+    height: 200px;
+    background-color: #ddf0f7;
+    border: 1px solid rgb(230, 230, 230);
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+}
+.fuptxt {
+padding-left: 20px;
+padding-right: 20px;
+}
+.fuptxt p{
+    text-transform: uppercase;
+color: #f75757;
+}
+.fuptxt h1{
+color: #222328;
+width: 80%;
+padding-top: 17px;
+}
+.fupporbox a{
+    border: 1px solid #f75757;
+    padding: 15px 20px;
+    border-radius: 40px;
+    color: black;
+    text-transform: uppercase;
+}
+.fupporbox a:hover{
+    background-color: #f75757;
+}
+
+.fotercontent{
+    width: 80%;
+    margin: 0px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.fbox{
+    height: 250px;
+    width: 20%;
+}
+.fbox h5{
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: #05001b;
+}
+.fbox p{
+    width: 80%;
+    font-style: italic;
+    padding-bottom: 30px;
+    color: #9b9b9b;
+}
+.fbox .name{
+    font-size: 28px;
+        font-weight: bold;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.fbox input{
+    width: 80%;
+    height: 28px;
+    padding: 10px;
+    color: #9b9b9b;
+    margin-bottom: 20px;
+}
+.fbox button{
+   width: 190px;
+   height: 40px;
+   border: none;
+   border-radius: 5px;
+   background-color: #f75757;
+   color: white;
+}
+.fbox button:hover{
+   background-color: #fd0000;
+}
+.fbox li{
+    list-style: none;
+    padding: 8px 0px;
+}
+.fbox li a{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+}
+.fbox li a:hover{
+    color: #f75757;
+}
+.copyarea{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 68px;
+    height: 40px;
+    background-color: #2c353d;
+
+}
+.copyarea p{
+    text-transform: capitalize;
+color: white;
+}
+.copyarea span{
+    color: #ff5e00;
+}
